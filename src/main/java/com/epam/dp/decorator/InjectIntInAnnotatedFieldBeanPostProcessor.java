@@ -1,5 +1,7 @@
 package com.epam.dp.decorator;
 
+import com.epam.dp.decorator.BeanPostProcessor;
+import com.epam.dp.decorator.InjectRandomInt;
 import com.epam.dp.factory.Show;
 
 import java.lang.reflect.Field;

@@ -25,7 +25,6 @@ public class ApplicationContext {
         for (BeanPostProcessor beanPostProcessor : beanPostProcessors
                 ) {
             beanPostProcessor.beanPostProcess(o);
-
         }
         return o;
     }
