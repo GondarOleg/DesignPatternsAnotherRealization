@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * Created by Oleg_Gondar on 8/31/2016.
  */
-public class InjectInt implements BeanPostProcessor {
+public class InjectIntInAnnotatedFieldBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object beanPostProcess(Object o) throws IllegalAccessException {

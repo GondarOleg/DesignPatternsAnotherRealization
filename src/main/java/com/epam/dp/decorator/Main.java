@@ -10,7 +10,6 @@ public class Main {
     public static void main(String[] args) throws IllegalAccessException, ClassNotFoundException, InstantiationException {
 
         ApplicationContext applicationContext = new ApplicationContext(new BeanFactory());
-        applicationContext.setBeanPostProcessor(new InjectInt());
 
         loadApplicationContext("TestClass", applicationContext);
         loadApplicationContext("AnotherClass", applicationContext);
